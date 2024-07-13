@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a class="logo" href="#">
+            <img src="images/logo.svg" width="170" height="60" alt="logo">
+          </a>
+        </div>
+        <div class="header__navigation">
+          <nav>
+            <ul class="header__nav-list">
+              <li>Home</li>
+              <li>Services</li>
+              <li>About</li>
+              <li>Contacts</li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header__callback">
+          <button class="callback__button">CALLBACK</button>
+        </div>
+      </div>
+    </header>
+    <main>
+        
+      <h1>Who we are</h1>
+        <div class="border__div"></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+
+      <div class="flex-container">
+        <!--add here a list-->
+        <div class="flex-container__item">
+          <div class="empty__square">
+            <img src="Images/twitter.svg" alt="">
+            <img src="Images/facebook.svg" alt="">
+            <img src="Images/instagram.svg" alt="">
+          </div>
+          <h2>John Handson</h2>
+          <p>Lead designer</p>
+        </div>
+        <div class="flex-container__item">
+          <img src="Images/card.png" alt="" />
+          <h2>Alex Cutter</h2>
+          <p>Developer</p>
+        </div>
+        <div class="flex-container__item">
+          <img src="Images/photo.png" alt="" />
+          <h2>Elena Simpson</h2>
+          <p>Artist</p>
+        </div>
+        <div class="flex-container__item">
+          <img src="Images/photo (1).png" alt="" />
+          <h2>Lily Allen</h2>
+          <p>Graphic Designer</p>
+        </div>
+      </div>
     
-</body>
+    </main>
+    <footer>
+    <div class="footer-container">
+        <div class="logo">
+          <a class="logo" href="#">
+            <img src="images/logo.svg" width="170" height="60" alt="logo">
+          </a>
+        </div>
+        <div class="footer__nav">
+          <nav>
+            <ul class="footer__nav-list">
+              <li>Home</li>
+              <li>Services</li>
+              <li>About</li>
+              <li>Contacts</li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="social__network__icons">
+          <img src="Images/footer-twitter.svg" alt="">
+          <img src="Images/footer-facebook.svg" alt="">
+          <img src="Images/footer-instagram.svg" alt="">
+          <img src="Images/footer-linkedin.svg" alt="">
+          <img src="Images/footer-telegram.svg" alt="">
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
